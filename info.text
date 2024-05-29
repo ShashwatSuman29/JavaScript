@@ -55,4 +55,44 @@ LOGICAL OPERATORS
 and , or , not
 
 CONDITIONAL STATEMENT
+
 -(if statement)
+let age = 22;
+if (age>18){
+    console.log("you can vote")
+}
+if (age<18){
+    console.log("you cannot vote)
+}
+
+-(if else statement)
+let color;
+if (color=== "dark-mode"){
+    color = "black";
+} else {
+    color ="white";
+}
+
+-(else if statement)
+if (condition 1){
+
+} else if (condition 2){
+
+}.
+ .
+ .
+ .
+ so on
+
+. it is used where we have to check multiple condition .
+
+if (age <18){
+    console.log("juniors")
+} else if (age =18){
+    console.log("mediocre")
+} else if (age>18){
+    console.log("senior")
+}
+
+PROMPT
+-popups likes feature which is used to take inpuits from the user.
