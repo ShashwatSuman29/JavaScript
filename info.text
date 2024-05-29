@@ -1,4 +1,4 @@
-Variable-
+VARIABLE-
 -It is a container for data.
 
 Let , Const , Var-
@@ -11,3 +11,48 @@ console.log(name);
 - var is not used after 2015 because of ES6
 - in Let , varibales cannot be redeclared and can be updated.
 -in const , variable cannot be redeclared or updated.
+
+DATA TYPE- (primitve)
+.number 
+.string 
+.boolean 
+.undefined
+.null
+.big int (rarely used)
+.symbol(rarely used)
+
+(non-primitive)
+.objects- collection of values
+const student {
+    fullName: shashwat,
+    age:22,
+    cpga:7.2l
+    isPasss:true
+};
+
+**how to target , lets say age of student??
+-console.log(student.age)
+
+COMMENTS-
+// , /*  */
+
+OPERATORS-
++ - * / modolu , exponential(^), increment , decrement
+a++ (post increment) - it change value in text line of code
+++a (preincrement)- it will change the value first and then proceed further
+
+-ASSIGNMENT OPERATORS-
+= += -= *= %= ^=
+
+-COMPARISON OPERATORS
+== equal to
+=== equal to & also check data type (strict)
+!= not equal t0
+!== not equal to and also check data type (strict)
+> >= < <=
+
+LOGICAL OPERATORS
+and , or , not
+
+CONDITIONAL STATEMENT
+-(if statement)
