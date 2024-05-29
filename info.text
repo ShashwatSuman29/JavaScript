@@ -1,0 +1,13 @@
+Variable-
+-It is a container for data.
+
+Let , Const , Var-
+- let name = "shashwat";
+console.log(name);
+
+- const name = "shashwat";
+console.log(name);
+
+- var is not used after 2015 because of ES6
+- in Let , varibales cannot be redeclared and can be updated.
+-in const , variable cannot be redeclared or updated.
