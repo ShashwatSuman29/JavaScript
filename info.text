@@ -96,3 +96,19 @@ if (age <18){
 
 PROMPT
 -popups likes feature which is used to take inpuits from the user.
+
+LOOPS
+-it is used to execute a piece of code again and again several times.
+-it is of various types such as
+
+(for loop)
+for (let i=1; i<5; i++){
+    console.log("shashwat")
+}
+
+**output 
+shashwat 
+shashwat
+shashwat
+shashwat
+shashwat
