@@ -123,3 +123,15 @@ while (i<=5){
     console.log(i)
     i++;
 }
+
+CONSTRUCTOR
+
+rule 1- constructor has same name as that of a class.
+rule 2- constructor is somewhat like a method but not exactly a method
+rule 3-constructor doesnot return anything , not even void, it only return instance of the class
+rule 4- there are basically two type of constructor in java . parametrized , non parametrized.
+rule 5- there is a special kind of constructor provided by java that is default constructor. if you are not creating any constructor in your class then java virtual machine is going to provide you default constructor.
+rule 6-there is a mechanism of constructor chaining which every constructor does.
+rule 7- when u create object of a class then constructor is automatically is invoked.
+rule 8- if u want to call a constructor from another constructor inside the same class then u have to use THIS keyword . for this , THIS should be the first statement inside the constructor.
+
