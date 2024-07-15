@@ -118,11 +118,131 @@ while (stooping conditional){
 
 }
 
+example -
+
 let i =1;
 while (i<=5){
     console.log(i)
     i++;
 }
+
+(do-while loop)
+do {
+} while (condition)
+
+.It runs one time atleast.
+
+example-
+
+let i= 20;
+do {
+    console.log("shashwat")
+    i++;
+} while(i<=10);
+
+(For-of loop)
+.special type of loop used in specific data types such as array and string.
+
+for(let val of str){
+
+}
+
+example- 
+
+let str = "shashwat";
+let size = 0;
+for (let i of str){
+    console.log(i)
+    size++;
+}
+console.log (size)
+
+(for-in loop)
+. it is a special type of loop used in speicif type of data types such as objects and arrays.
+
+for (let var in str){
+
+}
+
+example-
+
+let student = {
+    name: shashwat,
+    age: 20,
+    cgpa: 7.2,
+    isPass: true
+};
+
+for (let key in student){
+    console.log(key);
+}
+
+STRINGS:-
+.it is a sequence of character used to represent text.
+-create string-
+let str = "shashwat"
+
+- string length-
+str.length
+
+-string index -
+str[0], str[1] etc
+
+
+TEMPLATE LITERALS:-
+.ways to embedded expression in string.
+ `shashwat`
+.let obj = {
+    item: "pen",
+    price: 10,
+};
+console.log(`the cost of ${obj.item} is ${pbj.price});
+
+STRING INTERPOLATION:-
+.to create strings by doing substituition of placeholder .
+`string text ${expression} string text`
+
+STRING METHODS:-
+-str.toUpperCase
+-str.toLowerCase
+-str.trim
+-str.slice(start, end?)
+-str1.concat(str2)
+-str.replace(searchval, newval)
+-str.charAt()
+
+ARRAYS:-
+.it is a collection of items.
+let name =["shashwat","resham"]
+let marks = ["89', "76"]
+
+.array is mutuable in javascript.
+.string is not muituable in javascript.
+
+ARRAY METHOD:-
+-push()
+-pop()
+-toString()- convert array to string
+-concat()
+-shift()- delete from start and return
+-unShift()- add to start
+-slice()-return a piece pf array
+-splice()- change original array (add, remove, replace)
+.splice(start index , delcount, new element)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 CONSTRUCTOR
 
