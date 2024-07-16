@@ -101,7 +101,7 @@ LOOPS
 -it is used to execute a piece of code again and again several times.
 -it is of various types such as
 
-(for loop)
+FOR LOOP
 for (let i=1; i<5; i++){
     console.log("shashwat")
 }
@@ -113,7 +113,7 @@ shashwat
 shashwat
 shashwat
 
-(while loop)
+WHILE LOOP
 while (stooping conditional){
 
 }
@@ -126,7 +126,8 @@ while (i<=5){
     i++;
 }
 
-(do-while loop)
+DO WHILE LOOP 
+
 do {
 } while (condition)
 
@@ -140,7 +141,7 @@ do {
     i++;
 } while(i<=10);
 
-(For-of loop)
+FOR OF LOOP
 .special type of loop used in specific data types such as array and string.
 
 for(let val of str){
@@ -157,7 +158,7 @@ for (let i of str){
 }
 console.log (size)
 
-(for-in loop)
+FOR IN LOOP
 . it is a special type of loop used in speicif type of data types such as objects and arrays.
 
 for (let var in str){
@@ -230,12 +231,67 @@ ARRAY METHOD:-
 -splice()- change original array (add, remove, replace)
 .splice(start index , delcount, new element)
 
+FUNCTION:-
+.block of code that perform a specific task and can be call whenever needed.
+
+CUSTOM FUNCTION:-
+function functionName(){
+    // do some work 
+}
+
+PARAMETER AND ARGUMENTS:-
+paramater is when we take input at the time of function definition , whereas agruments are input which we take when we call the function.
+
+ARROW FUNCTION:-
+.it a a part of modern javascript.
+.compact way of writing a function
+
+const functionName = (param1, param2) => {
+
+}
+
+CALLBACK FUNCTION:-
+.it is the function which is passed as an argument to another function 
+
+arr.forEach ((val) +>{
+    console,log(val)
+})
+
+.here it is a function to execute for each element in array.
+.(value  , index , array) these three parameter can be passed in callback function,
+
+HIGHER ORDER FUNCTION:-
+.those function which takes function as a parameter or return function.
+.callback function is a higher order function.
+
+MAP METHODS FOR ARRAY:-
+. it is same as for each 
+.it is used when we want to do some work for each function.
+.the only difference is map create new array as compared to for each.
+
+arr.map (callback function (value, index, array))
+
+let newArr = arr.map((val) =>{
+    return val*2;
+})
 
 
+FILTER METHODS:-
+.it create a new array of elementthat gives true for a condition.
+.if we want to filter out anything then we use filter methods.
+
+let newArr = arr.filter ((val) =>{
+    return val%2==0;
+})
 
 
+REDUCE METHODS:-
+.when there is lots of inputs and there is only on evalue in output.
+example- sum , average
 
-
+arr.reduce((result, current) =>{
+    return result + current;
+})
 
 
 
