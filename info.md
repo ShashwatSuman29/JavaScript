@@ -481,7 +481,7 @@ element.addEventListener('click', function(event) {
 });
 ```
 
-These are just a few examples of how JavaScript can be used to manipulate the DOM. DOM manipulation is a powerful tool for creating dynamic and interactive web applications.
+
 
 
 # CONSTRUCTOR
