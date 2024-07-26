@@ -392,6 +392,98 @@ arr.reduce((result, current) => {
 });
 ```
 
+
+# DOM Manipulation in JavaScript
+
+DOM manipulation in JavaScript refers to the process of using JavaScript to interact with and modify the Document Object Model (DOM) of a webpage. The DOM is a representation of the structure of a webpage, where each element is an object that can be accessed and modified. This allows developers to dynamically change the content, structure, and style of a webpage in response to user actions or other events.
+
+Here are some common tasks involved in DOM manipulation:
+
+## 1. Selecting Elements
+
+Accessing elements in the DOM using methods such as `getElementById`, `getElementsByClassName`, `getElementsByTagName`, `querySelector`, and `querySelectorAll`.
+
+```javascript
+// Select an element by ID
+const element = document.getElementById('myElement');
+
+// Select elements by class name
+const elements = document.getElementsByClassName('myClass');
+
+// Select elements by tag name
+const elements = document.getElementsByTagName('div');
+
+// Select the first element that matches a CSS selector
+const element = document.querySelector('.myClass');
+
+// Select all elements that match a CSS selector
+const elements = document.querySelectorAll('.myClass');
+```
+
+## 2. Changing Content
+
+Modifying the content of elements using properties like `innerHTML`, `textContent`, and `value`.
+
+```javascript
+// Change the inner HTML of an element
+element.innerHTML = '<p>New Content</p>';
+
+// Change the text content of an element
+element.textContent = 'New Text';
+
+// Change the value of an input element
+inputElement.value = 'New Value';
+```
+
+## 3. Changing Styles
+
+Modifying the styles of elements using the `style` property or by adding/removing classes.
+
+```javascript
+// Change the style of an element
+element.style.color = 'red';
+
+// Add a class to an element
+element.classList.add('newClass');
+
+// Remove a class from an element
+element.classList.remove('oldClass');
+```
+
+## 4. Adding/Removing Elements
+
+Dynamically adding or removing elements from the DOM using methods like `appendChild`, `insertBefore`, `removeChild`, and `replaceChild`.
+
+```javascript
+// Create a new element
+const newElement = document.createElement('div');
+newElement.textContent = 'New Element';
+
+// Append the new element to a parent element
+parentElement.appendChild(newElement);
+
+// Remove an element from the DOM
+parentElement.removeChild(childElement);
+
+// Replace an existing element with a new element
+parentElement.replaceChild(newElement, oldElement);
+```
+
+## 5. Event Handling
+
+Adding event listeners to elements to respond to user actions like clicks, key presses, and form submissions.
+
+```javascript
+// Add an event listener to an element
+element.addEventListener('click', function(event) {
+    // Handle the click event
+    console.log('Element clicked!');
+});
+```
+
+These are just a few examples of how JavaScript can be used to manipulate the DOM. DOM manipulation is a powerful tool for creating dynamic and interactive web applications.
+
+
 # CONSTRUCTOR
 
 - Rule 1: Constructor has the same name as that of a class.
